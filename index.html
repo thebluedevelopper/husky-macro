@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Husky Macro v5.0 | Professional Automation Suite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #f59e0b; --bg-dark: #0a0a0c; --card-bg: #141417; }
+        body { background-color: var(--bg-dark); color: #e4e4e7; font-family: 'Outfit', sans-serif; scroll-behavior: smooth; }
+        
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .btn-premium {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            box-shadow: 0 10px 25px -10px rgba(245, 158, 11, 0.4);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            color: #000; font-weight: 700;
+        }
+        .btn-premium:hover { transform: translateY(-3px); box-shadow: 0 15px 35px -10px rgba(245, 158, 11, 0.6); }
+
+        .glass-card {
+            background: linear-gradient(145deg, rgba(30, 30, 35, 0.6) 0%, rgba(20, 20, 23, 0.8) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover { border-color: rgba(245, 158, 11, 0.2); background: rgba(255,255,255,0.02); }
+
+        .feature-icon {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, transparent 100%);
+            border: 1px solid rgba(245, 158, 11, 0.1);
+        }
+
+        .app-screenshot {
+            filter: drop-shadow(0 0 80px rgba(245, 158, 11, 0.1));
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        kbd {
+            background: #1a1a1e; border: 1px solid #333; border-radius: 6px;
+            padding: 2px 8px; font-family: monospace; color: var(--primary);
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-amber-500/30">
+
+    <nav class="fixed w-full z-50 px-6 py-5 bg-black/40 backdrop-blur-xl border-b border-white/5">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="assets/icon.ico" class="w-9 h-9 rounded-xl shadow-lg" alt="Logo">
+                <span class="font-bold text-2xl tracking-tighter">HUSKY <span class="text-amber-500">MACRO</span></span>
+            </div>
+            <a href="installers/HuskyMacro_v5.0_Setup.exe" class="btn-premium px-6 py-2.5 rounded-xl text-sm uppercase tracking-wider">
+                <i class="fas fa-download mr-2"></i>Download V5.0
+            </a>
+        </div>
+    </nav>
+
+    <section class="relative pt-40 pb-24 px-6 overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[600px] bg-[radial-gradient(circle_at_50%_0%,rgba(245,158,11,0.08),transparent)] pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-6xl md:text-8xl font-extrabold tracking-tighter mb-8 leading-[0.9]">
+                Automate with <br><span class="gold-gradient-text">Elite Precision.</span>
+            </h1>
+            
+            <p class="max-w-2xl text-gray-400 text-lg md:text-xl mb-12 mx-auto leading-relaxed">
+                A non-nonsense, professional automation engine. Built for power users who need advanced scheduling, sequential execution, and deep macro editing.
+            </p>
+
+            <div class="relative w-full max-w-5xl mx-auto mt-12">
+                <img src="image.png" alt="Husky Macro v5.0 Interface" class="app-screenshot w-full shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-20">
+        <div class="grid md:grid-cols-2 gap-12 items-center mb-32">
+            <div>
+                <div class="inline-block px-4 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 text-xs font-bold uppercase tracking-widest mb-6">Advanced Engine</div>
+                <h2 class="text-4xl font-bold mb-6 italic">The Intelligent <span class="text-amber-500">Scheduler.</span></h2>
+                <p class="text-gray-400 mb-8 leading-relaxed">Don't just run one macro. Build complex execution chains. Our scheduler allows you to queue multiple macros, set individual repetition counts for each, and track real-time progress through a dedicated visual queue.</p>
+                <ul class="space-y-4">
+                    <li class="flex items-center gap-3 text-sm text-gray-300"><i class="fas fa-check-circle text-amber-500"></i> Sequential execution logic</li>
+                    <li class="flex items-center gap-3 text-sm text-gray-300"><i class="fas fa-check-circle text-amber-500"></i> Custom per-macro repetition loops</li>
+                    <li class="flex items-center gap-3 text-sm text-gray-300"><i class="fas fa-check-circle text-amber-500"></i> Real-time status & progress monitoring</li>
+                </ul>
+            </div>
+            <div class="glass-card p-8 rounded-[32px] border-amber-500/10">
+                <div class="space-y-4">
+                    <div class="p-4 bg-white/5 rounded-xl border border-white/5 flex justify-between items-center">
+                        <span class="text-sm font-medium">1. Morning_Report_Fetch</span>
+                        <span class="text-xs text-amber-500 font-bold">5 Reps</span>
+                    </div>
+                    <div class="p-4 bg-white/5 rounded-xl border border-white/5 flex justify-between items-center opacity-60">
+                        <span class="text-sm font-medium">2. Data_Entry_Automated</span>
+                        <span class="text-xs text-amber-500 font-bold">12 Reps</span>
+                    </div>
+                    <div class="p-4 bg-white/5 rounded-xl border border-white/5 flex justify-between items-center opacity-30">
+                        <span class="text-sm font-medium">3. System_Cleanup_Script</span>
+                        <span class="text-xs text-amber-500 font-bold">1 Rep</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center flex-row-reverse">
+             <div class="order-2 md:order-1 glass-card p-10 rounded-[32px] flex flex-col gap-4">
+                <div class="flex gap-2 mb-4">
+                    <span class="px-3 py-1 bg-amber-500/20 text-amber-500 rounded text-[10px] font-bold">#WORK</span>
+                    <span class="px-3 py-1 bg-zinc-800 text-zinc-400 rounded text-[10px] font-bold">#FINANCE</span>
+                    <span class="px-3 py-1 bg-zinc-800 text-zinc-400 rounded text-[10px] font-bold">#URGENT</span>
+                </div>
+                <div class="h-2 w-full bg-white/5 rounded-full overflow-hidden"><div class="h-full bg-amber-500 w-2/3"></div></div>
+                <p class="text-[10px] text-gray-500 uppercase tracking-widest">Macro Organization System</p>
+            </div>
+            <div class="order-1 md:order-2">
+                <div class="inline-block px-4 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 text-xs font-bold uppercase tracking-widest mb-6">Database Management</div>
+                <h2 class="text-4xl font-bold mb-6 italic">Organize <span class="text-amber-500">Hundreds</span> of Macros.</h2>
+                <p class="text-gray-400 mb-8 leading-relaxed">Stop scrolling through endless lists. Husky Macro features a professional Search & Tagging system. Assign custom labels to your automations and filter your entire database instantly by name or category.</p>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-4 glass-card rounded-2xl">
+                        <i class="fas fa-tags text-amber-500 mb-3"></i>
+                        <h4 class="font-bold text-sm">Smart Tagging</h4>
+                    </div>
+                    <div class="p-4 glass-card rounded-2xl">
+                        <i class="fas fa-search text-amber-500 mb-3"></i>
+                        <h4 class="font-bold text-sm">Instant Search</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-gradient-to-b from-transparent to-black">
+        <div class="max-w-7xl mx-auto px-6">
+            <h3 class="text-center text-sm font-bold text-gray-500 uppercase tracking-[0.3em] mb-16">Technical Capabilities</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 border border-white/5 rounded-3xl hover:bg-white/[0.02] transition">
+                    <h4 class="text-amber-500 font-bold mb-4 flex items-center gap-2"><i class="fas fa-edit"></i> Micro-Editing</h4>
+                    <p class="text-gray-400 text-sm">Fine-tune every action. Change mouse X/Y coordinates, adjust millisecond delays, or swap keyboard keys without re-recording.</p>
+                </div>
+                <div class="p-8 border border-white/5 rounded-3xl hover:bg-white/[0.02] transition">
+                    <h4 class="text-amber-500 font-bold mb-4 flex items-center gap-2"><i class="fas fa-share-nodes"></i> Safe Deployment</h4>
+                    <p class="text-gray-400 text-sm">Export macros as JSON for single files or ZIP bundles for entire libraries. Perfectly preserved metadata for easy sharing.</p>
+                </div>
+                <div class="p-8 border border-white/5 rounded-3xl hover:bg-white/[0.02] transition">
+                    <h4 class="text-amber-500 font-bold mb-4 flex items-center gap-2"><i class="fas fa-keyboard"></i> Global Overrides</h4>
+                    <kbd>Alt+W</kbd> kills all processes. <kbd>Alt+S</kbd> toggles recording. Husky stays alert even when minimized to tray.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-32 px-6 text-center">
+        <div class="max-w-3xl mx-auto glass-card p-16 rounded-[48px] border-amber-500/20 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-amber-500/10 blur-[60px]"></div>
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-8">Ready to automate?</h2>
+            <a href="installers/HuskyMacro_v5.0_Setup.exe" class="btn-premium px-12 py-5 rounded-2xl inline-flex items-center gap-3 text-lg">
+                Download Husky Macro v5.0
+            </a>
+            <p class="mt-8 text-gray-500 text-sm">Windows 10, 11 compatible • 64-bit</p>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-white/5 text-center">
+        <p class="text-gray-600 text-xs uppercase tracking-widest">Husky Macro v5.0 • Not Open Source • Developed by thebluehusky</p>
+    </footer>
+
+</body>
+</html>
